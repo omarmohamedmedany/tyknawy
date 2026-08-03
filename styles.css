@@ -801,7 +801,7 @@ p {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  z-index: 90;
+  z-index: 999;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -871,6 +871,9 @@ p {
 }
 .footer nav a,
 .footer nav span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.88rem;
 }
